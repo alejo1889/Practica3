@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "name": "Bateria",
+  "description": "Your new awesome Open Web App",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/img/icons/logo60.png",
+    "128": "/img/icons/logo128.png"
+  },
+  "developer": {
+    "name": "Alejandro Sotelo"
+  
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+ 
+  "default_locale": "es"
+}

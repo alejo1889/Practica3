@@ -1,0 +1,24 @@
+
+/* Tip: Use "@import" to add styles instead of adding <link>'s in your
+   HTML, and volo will inline it when building for production */
+
+@import "headers.css";
+@import "buttons.css";
+
+/* Your styles here */
+html, body {
+      margin: 0;
+      padding: 0;
+      background-image: url(../img/bg01.png);
+      font-family: 'Open Sans', sans-serif;
+		font-size: 11pt;
+		font-weight: 400;
+		color: #969696;
+     
+    }
+    
+   table{
+      text-align: justify;
+      padding: 10px;
+    }
+   
