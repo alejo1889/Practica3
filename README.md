@@ -1,21 +1,5 @@
-# A Blank Template for Open Web Apps
+Practica 3: Bateria 
 
-The is a minimal template that has a little HTML, CSS, and js to help
-you start writing an Open Web App.
+El objetivo de esta práctica, es la realización de una aplicación que permita monitorear el estado de la bateria a traves del uso de la Web API Battery Status.
 
-This is part of the [mortar](https://github.com/mozilla/mortar/)
-template collection for building Open Web Apps.
-
-# Usage
-
-There are a few ways to get this template:
-
-* git clone git://github.com/mozilla/mortar-app-stub.git myapp
-* volo create myapp mozilla/mortar-app-stub
-
-If you have node installed, you can run a development server with volo:
-
-1. cd myapp
-2. volo serve
-
-View the app at http://localhost:8008/.
+La practica se desarrolla haciendo uso de la plantilla app-stub de Mortar y algunos de los elementos de Building Firefox OS.
