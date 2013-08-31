@@ -1,7 +1,4 @@
 
-// This uses require.js to structure javascript:
-// http://requirejs.org/docs/api.html#define
-
 define(function(require) {
 
  require('jquery-1.10.2.min');
@@ -42,53 +39,6 @@ define(function(require) {
     element.src="/img/1.png";
   }
 }
-
-$(function() {
-  $("#get-date").click(function() {
-  /*  if(navigator.battery.charging){
-      var m_left = parseInt(navigator.battery.chargingTime / 60, 10);
-      m_left = m_left*60000;
-      var time = new Date(new Date(Date.now() + m_left)); 
-      var message = "Desconecta el Movil, Carga completa";
-      //
-      var myDate  = new Date("May 15, 2012 16:20:00");
-      var data    = {
-        foo: "bar"
-        }
-      // La cadena "ignoreTimezone" es lo que hace a la alarma ignorar esto
-      var request = navigator.mozAlarms.add(myDate, "ignoreTimezone", data);
-      request.onsuccess = function () {
-        console.log("La alarma ha sido programada");
-      };
-      request.onerror = function () { 
-        console.log("Ha ocurrido un error: " + this.error.name);
-      };
-      $("#date").text("Debe desconectar el movil el: "+time);
-    }else{
-      $("#date").text("No se programo la alarma ya el telefono no se encuentra conectado");
-    }
-    
-    */
-    request = navigator.mozAlarms.add(
-    new Date("Aug 31, 2013 6:19:00"), "honorTimezone", {mydata: "my event" });
-    request.onsuccess = function () {
-        $("#date").text("Exito");
-        window.console.log("La alarma ha sido programada");
-
-      };
-      request.onerror = function () { 
-        $("#date").text("Paila");
-        window.console.log("Ha ocurrido un error: " + this.error.name);
-
-      };
-  });
-
-});
-
-
-
-
-
 
 });
 

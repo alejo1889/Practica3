@@ -1,7 +1,7 @@
 {
   "version": "0.1",
   "name": "Bateria",
-  "description": "Your new awesome Open Web App",
+  "description": "Aplicacion para monitorear el estado actual de la bateria",
   "launch_path": "/index.html",
   "icons": {
     "60": "/img/icons/logo60.png",
@@ -12,7 +12,5 @@
   
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
- 
   "default_locale": "es"
 }
